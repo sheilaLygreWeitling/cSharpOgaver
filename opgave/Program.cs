@@ -10,7 +10,7 @@ namespace opgave
     {
         static void Main(string[] args)
         {
-            variabler.opg5();
+            strings.opg4();
             Console.ReadKey();
         }
     }
