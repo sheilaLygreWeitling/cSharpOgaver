@@ -10,7 +10,7 @@ namespace opgave
     {
         static void Main(string[] args)
         {
-            strings.opg4();
+            elseIfStatements.opg7();
             Console.ReadKey();
         }
     }

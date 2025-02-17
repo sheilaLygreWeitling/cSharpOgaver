@@ -47,8 +47,14 @@ namespace opgave
             Console.WriteLine("Jeg hedder " + name + " og er " + alder + " år gammel");
         }
 
-        public static void opg6() { 
-        
+        public static void opg6() {
+            double radius = 0.0;
+            double pi = Math.PI;
+            double result;
+            Console.WriteLine("Indtast radius:\n");
+            radius = double.Parse(Console.ReadLine());
+            result = Math.Pow(radius, 2);
+            Console.WriteLine("Arealet er: {0}\u00b2", result);
         }
     }
 }
